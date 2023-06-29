@@ -2,7 +2,7 @@
 
   <section id="Intro" class="d-flex align-items-center justify-content-center"> 
           <br>
-      <div class="container animate__animated animate__fadeIn animate__delay-2s animate__slower">
+      <div class="container animate__animated animate__fadeIn animate__delay-1s animate__slower">
         <br>
         <h1 class="title">Esoteric.</h1>
         <h2>To others reading is a myth</h2>
@@ -18,9 +18,9 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <a href="/Otherpages/Products.html#novels_section">
+                <router-link to="/Otherpages/Products.html#novels_section">
                   <img class="cat-img" src="https://e7.pngegg.com/pngimages/225/361/png-clipart-black-book-logo-amazon-com-computer-icons-book-library-icon-study-s-miscellaneous-angle.png" alt="A Category"/>
-                </a>
+                </router-link>
                 <h3>Novel</h3>
               </div>
               <div class="col">

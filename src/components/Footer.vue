@@ -6,16 +6,16 @@
         <a class="m-1" href="https://media.makeameme.org/created/hello-rtr56j.jpg"><i class="fa fa-envelope icon"></i></a>
         <a class="m-1" href="https://goo.gl/maps/qnR6RGGvVR6MZyDb6?coh=178573&entry=tt"><i class="fa-brands fa-instagram icon"></i></a>
         <a class="m-1" href="https://goo.gl/maps/qnR6RGGvVR6MZyDb6?coh=178573&entry=tt"><i class="fa fa-location-dot icon"></i></a>
-        <a class="m-1" href="/Otherpages/Esoteric Creatives.html"><i class="fa fa-globe icon"></i></a>
+        <router-link class="m-1" to="/website"><i class="fa fa-globe icon"></i></router-link>
       </div>
       <br />
       <div class="container mb-2 text-center">
         <div class="row align-items-end">
           <div class="col">
-            <router-link class="me-2 foot" to="/">Story</router-link>
-            <router-link class="me-2 foot" to="/">Books</router-link>
-            <router-link class="me-2 foot" to="/">Admin</router-link>
-            <router-link class="me-2 foot" to="/">Contact Us</router-link>
+            <router-link class="me-2 foot" to="/about">Story</router-link>
+            <router-link class="me-2 foot" to="/books">Books</router-link>
+            <router-link class="me-2 foot" to="/admin">Admin</router-link>
+            <router-link class="me-2 foot" to="/contact">Contact Us</router-link>
           </div>
           <h3 class="col foot_title">Esoteric</h3>
           <div class="col copyright">© Copyright by Olwethu | 2023</div>

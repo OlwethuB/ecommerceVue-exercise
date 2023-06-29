@@ -1,6 +1,5 @@
 <template>
   <!-- body body --> 
-<br>
 <main>
   <br>
 <h1 class=" m-5 p-5 text-center">About Esoteric</h1>
